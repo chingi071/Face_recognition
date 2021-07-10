@@ -12,6 +12,6 @@ Create Database: 使用 SQLite
 
 Face Recognition: 使用 arcface
 
-辨識結果:
-<img width="400" height="550" src="https://github.com/chingi071/Face_recognition/result.jpg"/></div>
+##辨識結果:
+<img width="400" height="550" src="https://github.com/chingi071/Face_recognition/blob/main/result.jpg"/></div>
 
