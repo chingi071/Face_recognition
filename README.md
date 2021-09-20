@@ -18,11 +18,26 @@ Face Recognition: 使用 arcface
     $ python main.py
 
 主畫面如下
-![image](https://github.com/chingi071/Face_recognition/blob/main/README_pix/Image%1.png)
+
+![image](https://github.com/chingi071/Face_recognition/blob/main/README_pix/Image%201.png)
 
 設置資料庫畫面
 
+![image](https://github.com/chingi071/Face_recognition/blob/main/README_pix/Image%202.png)
 
+新增個人資料分為拍照及從電腦選取照片
+
+- 使用拍照功能
+
+![image](https://github.com/chingi071/Face_recognition/blob/main/README_pix/Image%203.png)
+
+- 從電腦選取照片
+
+![image](https://github.com/chingi071/Face_recognition/blob/main/README_pix/Image%204.png)
+
+辨識人臉
+
+![image](https://github.com/chingi071/Face_recognition/blob/main/README_pix/Image%205.png)
 
 
 ## 執行單一照片辨識:
