@@ -238,6 +238,33 @@
        <string>Recognition</string>
       </property>
      </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>690</y>
+        <width>341</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>241</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold SemiConden</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Developer： Ching I Lee</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="DBpage">
      <widget class="QWidget" name="layoutWidget_2">

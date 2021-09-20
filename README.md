@@ -1,4 +1,4 @@
-# Face_recognition
+# Face Recognition
 
 人臉辨識的實作過程分為幾個階段:
 
@@ -12,7 +12,20 @@ Create Database: 使用 SQLite
 
 Face Recognition: 使用 arcface
 
-## 辨識結果:
+## Project
+將 Face Recognition 整合至專案，功能有: 設置資料庫、新增個人資料、辨識人臉
+
+    $ python main.py
+
+主畫面如下
+![image](https://github.com/chingi071/Face_recognition/blob/main/README_pix/Image%1.png)
+
+設置資料庫畫面
+
+
+
+
+## 執行單一照片辨識:
     $ python recognize.py
 
 ![image](https://github.com/chingi071/Face_recognition/blob/main/README_pix/result.jpg)
