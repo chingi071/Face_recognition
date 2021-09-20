@@ -13,6 +13,10 @@ Create Database: 使用 SQLite
 Face Recognition: 使用 arcface
 
 ## Project
+環境安裝
+
+    $ pip install -r requirment.txt
+
 將 Face Recognition 整合至專案，功能有: 設置資料庫、新增個人資料、辨識人臉
 
     $ python main.py
