@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="maximumSize">
+    <size>
+     <width>1000</width>
+     <height>1000</height>
+    </size>
+   </property>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>971</width>
+      <height>781</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="MainPage">
+     <widget class="QPushButton" name="PhotoButton">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>450</y>
+        <width>211</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold SemiConden</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Take a picture</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LoadButton">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>450</y>
+        <width>211</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold SemiConden</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Load picture</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Step1_label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>140</y>
+        <width>811</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>800</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold SemiConden</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Step 1：Set up the database
+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="main_label">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>10</y>
+        <width>571</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>570</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold SemiConden</family>
+        <pointsize>28</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Hello！Face Recognition</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Step2_label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>340</y>
+        <width>800</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>800</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold SemiConden</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Step 2：Create personal information</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="DBSetButton">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>220</y>
+        <width>211</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold SemiConden</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Setting</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Step3_label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>570</y>
+        <width>800</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>800</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold SemiConden</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Step 3：Recognition</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="RecogButton">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>660</y>
+        <width>211</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold SemiConden</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Recognition</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="DBpage">
+     <widget class="QWidget" name="layoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>330</y>
+        <width>901</width>
+        <height>72</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="DBPath">
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiBold SemiConden</family>
+           <pointsize>16</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Database path：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="DBtext">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiBold SemiConden</family>
+           <pointsize>16</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="BrowseButton">
+         <property name="minimumSize">
+          <size>
+           <width>120</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>120</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiBold SemiConden</family>
+           <pointsize>16</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>browse</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="DBSaveButton">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>630</y>
+        <width>150</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>150</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>400</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold SemiConden</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Save</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="DBBackButton">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>630</y>
+        <width>150</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>150</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>200</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold SemiConden</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="DBSet_label">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>150</y>
+        <width>571</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold SemiConden</family>
+        <pointsize>18</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Please select the database path to save.</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Step1_label_1">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>401</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold SemiConden</family>
+        <pointsize>24</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Step 1：Database settings</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="CameraPage">
+     <widget class="QStackedWidget" name="CameraWidget">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>100</y>
+        <width>931</width>
+        <height>451</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="CameraViewPage">
+       <widget class="QCameraViewfinder" name="CameraView" native="true">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>30</y>
+          <width>671</width>
+          <height>391</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>1000</width>
+          <height>1000</height>
+         </size>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="CapturedImagePage">
+       <widget class="QLabel" name="CapturedImage">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>30</y>
+          <width>671</width>
+          <height>391</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>1000</width>
+          <height>1000</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="ChooseImagePage">
+       <widget class="QLabel" name="ChooseImage">
+        <property name="geometry">
+         <rect>
+          <x>220</x>
+          <y>20</y>
+          <width>541</width>
+          <height>411</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>570</y>
+        <width>901</width>
+        <height>74</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLabel" name="NameLabel">
+         <property name="minimumSize">
+          <size>
+           <width>120</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>150</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiBold SemiConden</family>
+           <pointsize>16</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Your name：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="Nametext">
+         <property name="minimumSize">
+          <size>
+           <width>300</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>300</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiBold SemiConden</family>
+           <pointsize>16</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="NameWarn">
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiBold SemiConden</family>
+           <pointsize>16</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>680</y>
+        <width>911</width>
+        <height>72</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QStackedWidget" name="ButtonWidget">
+         <property name="minimumSize">
+          <size>
+           <width>300</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="PhotoPage">
+          <widget class="QPushButton" name="CaptureButton">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>300</width>
+             <height>70</height>
+            </rect>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>300</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>400</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Bahnschrift SemiBold SemiConden</family>
+             <pointsize>16</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Take a picture</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="LoadPage">
+          <widget class="QPushButton" name="ChooseButton">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>300</width>
+             <height>70</height>
+            </rect>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>300</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>400</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Bahnschrift SemiBold SemiConden</family>
+             <pointsize>16</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Choose picture</string>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>88</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="SaveButton">
+         <property name="minimumSize">
+          <size>
+           <width>230</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>400</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiBold SemiConden</family>
+           <pointsize>16</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Save picture</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>88</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="BackButton">
+         <property name="minimumSize">
+          <size>
+           <width>120</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Bahnschrift SemiBold SemiConden</family>
+           <pointsize>16</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Back</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="Step2_label_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>831</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>800</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold SemiConden</family>
+        <pointsize>24</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Step 2：Create personal information</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="RecogPage">
+     <widget class="QLabel" name="Step3_label_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>800</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>800</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold SemiConden</family>
+        <pointsize>24</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Step 3：Recognition</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="RecogBackButton">
+      <property name="geometry">
+       <rect>
+        <x>780</x>
+        <y>630</y>
+        <width>150</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>150</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>200</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold SemiConden</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="RecogName_label">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>580</y>
+        <width>361</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold SemiConden</family>
+        <pointsize>28</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="RecogStartButton">
+      <property name="geometry">
+       <rect>
+        <x>589</x>
+        <y>630</y>
+        <width>171</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>150</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>200</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold SemiConden</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Recognition</string>
+      </property>
+     </widget>
+     <widget class="QStackedWidget" name="RecogWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>931</width>
+        <height>451</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="RecogViewPage">
+       <widget class="QCameraViewfinder" name="RecogView" native="true">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>30</y>
+          <width>671</width>
+          <height>391</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>1000</width>
+          <height>1000</height>
+         </size>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="RecogImagePage">
+       <widget class="QLabel" name="RecogImage">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>30</y>
+          <width>671</width>
+          <height>391</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>1000</width>
+          <height>1000</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCameraViewfinder</class>
+   <extends>QWidget</extends>
+   <header location="global">PyQt5.QtMultimediaWidgets</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
