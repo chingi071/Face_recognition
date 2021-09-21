@@ -5,7 +5,6 @@ from skimage import transform as trans
 import onnxruntime as rt
 from retinaface import RetinaFace
 from sklearn.preprocessing import normalize
-import matplotlib.pyplot as plt
 
 class RecogProcess():
     def __init__(self):
